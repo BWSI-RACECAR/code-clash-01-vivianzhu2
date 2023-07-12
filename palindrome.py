@@ -4,7 +4,7 @@ class Solution:
         #input=s[-1]
         txt = s[::-1]
         #print(txt)
-        if(txt==s):
+        if(txt==s and len(s)>6):
             return True
         else:
             return False
